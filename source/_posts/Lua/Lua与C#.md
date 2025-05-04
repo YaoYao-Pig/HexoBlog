@@ -1,7 +1,7 @@
 ---
-title: Lua与C#
+title: Lua与CSharp
 date: 2025-05-04 19:38:35
-tags:
+tags: Lua,XLua
 ---
 
 # Lua与C#
