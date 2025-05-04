@@ -1,7 +1,4 @@
----
-title: Lua与C#
-tags:Lua,XLua
----
+
 # Lua与C#
 
 本质上，Lua与C#的交互都是依靠虚拟的托管堆进行的。
