@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="robots" content="noindex"><meta><title>Tag: Lua - Hexo</title><link rel="manifest" href="/HexoBlog/manifest.json"><meta name="application-name" content="YaoYaoPig"><meta name="msapplication-TileImage" content="/img/favicon.svg"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-title" content="YaoYaoPig"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta property="og:type" content="blog"><meta property="og:title" content="A Gamer"><meta property="og:url" content="https://yaoyao-pig.github.io/HexoBlog"><meta property="og:site_name" content="Hexo"><meta property="og:locale" content="en_US"><meta property="og:image" content="https://yaoyao-pig.github.io/HexoBlog/img/og_image.png"><meta property="article:author" content="John Doe"><meta property="twitter:card" content="summary"><meta property="twitter:image:src" content="https://yaoyao-pig.github.io/HexoBlog/img/og_image.png"><script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"https://yaoyao-pig.github.io/HexoBlog"},"headline":"Hexo","image":["https://yaoyao-pig.github.io/HexoBlog/img/og_image.png"],"author":{"@type":"Person","name":"John Doe"},"publisher":{"@type":"Organization","name":"Hexo","logo":{"@type":"ImageObject","url":"https://yaoyao-pig.github.io/img/logo.svg"}},"description":""}</script><link rel="icon" href="/HexoBlog/img/favicon.svg"><link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"><link data-pjax rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.7.0/styles/atom-one-light.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;600&amp;family=Source+Code+Pro"><link data-pjax rel="stylesheet" href="/HexoBlog/css/default.css"><style>body>.footer,body>.navbar,body>.section{opacity:0}</style><!--!--><!--!--><!--!--><!--!--><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/css/justifiedGallery.min.css"><!--!--><!--!--><!--!--><style>.pace{-webkit-pointer-events:none;pointer-events:none;-webkit-user-select:none;-moz-user-select:none;user-select:none}.pace-inactive{display:none}.pace .pace-progress{background:#3273dc;position:fixed;z-index:2000;top:0;right:100%;width:100%;height:2px}</style><script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js"></script><!--!--><!--!--><!-- hexo injector head_end start --><script>
+  (function () {
+      function switchTab() {
+          if (!location.hash) {
+            return;
+          }
+
+          const id = '#' + CSS.escape(location.hash.substring(1));
+          const $tabMenu = document.querySelector(`.tabs a[href="${id}"]`);
+          if (!$tabMenu) {
+            return;
+          }
+
+          const $tabMenuContainer = $tabMenu.parentElement.parentElement;
+          Array.from($tabMenuContainer.children).forEach($menu => $menu.classList.remove('is-active'));
+          Array.from($tabMenuContainer.querySelectorAll('a'))
+              .map($menu => document.getElementById($menu.getAttribute("href").substring(1)))
+              .forEach($content => $content.classList.add('is-hidden'));
+
+          if ($tabMenu) {
+              $tabMenu.parentElement.classList.add('is-active');
+          }
+          const $activeTab = document.querySelector(id);
+          if ($activeTab) {
+              $activeTab.classList.remove('is-hidden');
+          }
+      }
+      switchTab();
+      window.addEventListener('hashchange', switchTab, false);
+  })();
+  </script><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"></head><body class="is-2-column"><nav class="navbar navbar-main"><div class="container navbar-container"><div class="navbar-brand justify-content-center"><a class="navbar-item navbar-logo" href="/HexoBlog/"><img src="/HexoBlog/img/logo.svg" alt="Hexo" height="28"></a></div><div class="navbar-menu"><div class="navbar-start"><a class="navbar-item" href="/HexoBlog/">Home</a><a class="navbar-item" href="/HexoBlog/archives">Archives</a><a class="navbar-item" href="/HexoBlog/categories">Categories</a><a class="navbar-item" href="/HexoBlog/tags">Tags</a><a class="navbar-item" href="/HexoBlog/about">About</a></div><div class="navbar-end"><a class="navbar-item" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a><a class="navbar-item search" title="Search" href="javascript:;"><i class="fas fa-search"></i></a></div></div></div></nav><section class="section"><div class="container"><div class="columns"><div class="column order-2 column-main is-8-tablet is-8-desktop is-8-widescreen"><div class="card"><div class="card-content"><nav class="breadcrumb" aria-label="breadcrumbs"><ul><li><a href="/HexoBlog/tags/">Tags</a></li><li class="is-active"><a href="#" aria-current="page">Lua</a></li></ul></nav></div></div><div class="card"><article class="card-content article" role="article"><div class="article-meta is-size-7 is-uppercase level is-mobile"><div class="level-left"><span class="level-item">Posted&nbsp;<time dateTime="2025-05-04T19:35:37.000Z" title="5/4/2025, 7:35:37 PM">2025-05-04</time></span><span class="level-item">Updated&nbsp;<time dateTime="2025-05-16T14:18:21.859Z" title="5/16/2025, 2:18:21 PM">2025-05-16</time></span><span class="level-item">23 minutes read (About 3392 words)</span></div></div><p class="title is-3 is-size-4-mobile"><a class="link-muted" href="/HexoBlog/2025/05/04/Lua/Lua%E7%9A%84%E9%95%BF%E5%BA%A6/">Lua的长度</a></p><div class="content"><p>由于Lua的表并不是传统意义上的数组或者哈希表，因此Lua长度的意义其实并不明确。也是因此我们使用#符号的时候要很慎重</p>
+<p>Lua的#符号的具体行为要看版本：</p>
+<p>实际上Lua#返回的是：边界</p>
+<p>什么是边界，Lua的定义是：对于一个表t，若t[i]~&#x3D;nil and t[i+1] &#x3D;&#x3D; nil 那么，这个i就是一个边界</p>
+<p>任何一个版本的#，对于数组或者哈希表，找的都是：边界</p>
+<ol>
+<li>5.2</li>
+</ol>
+<p>这是我们从Github上拉取的v5.2版本的代码：</p>
+<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><span class="line">int luaH_getn (Table *t) &#123;</span><br><span class="line">  unsigned int j = t-&gt;sizearray;</span><br><span class="line">    <span class="comment">-- 二分查找数组部分的nil</span></span><br><span class="line">  <span class="keyword">if</span> (j &gt; <span class="number">0</span> &amp;&amp; ttisnil(&amp;t-&gt;array[j - <span class="number">1</span>])) &#123;</span><br><span class="line">    /* there is a boundary <span class="keyword">in</span> the array part: (binary) search <span class="keyword">for</span> it */</span><br><span class="line">    unsigned int i = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">while</span> (j - i &gt; <span class="number">1</span>) &#123;</span><br><span class="line">      unsigned int m = (i+j)/<span class="number">2</span>;</span><br><span class="line">      <span class="keyword">if</span> (ttisnil(&amp;t-&gt;array[m - <span class="number">1</span>])) j = m;</span><br><span class="line">      <span class="keyword">else</span> i = m;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> i;</span><br><span class="line">  &#125;</span><br><span class="line">  /* <span class="keyword">else</span> must <span class="built_in">find</span> a boundary <span class="keyword">in</span> hash part */</span><br><span class="line">  <span class="keyword">else</span> <span class="keyword">if</span> (isdummy(t-&gt;node))  /* hash part is empty? */</span><br><span class="line">    <span class="keyword">return</span> j;  /* that is easy... */</span><br><span class="line">  <span class="keyword">else</span> <span class="keyword">return</span> unbound_search(t, j);</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">-- 这个函数的作用是计算 Lua 表 t 的长度（对应 #t 操作符的结果）。它的实现分为以下几个步骤：</span></span><br><span class="line"></span><br><span class="line"><span class="comment">-- 检查数组部分：</span></span><br><span class="line"><span class="comment">-- j = t-&gt;sizearray：获取表的数组部分长度。</span></span><br><span class="line"><span class="comment">-- 如果 j &gt; 0 且最后一个元素 t-&gt;array[j - 1] 为 nil，说明数组部分内部有空洞（即存在 nil）。</span></span><br><span class="line"><span class="comment">-- 在这种情况下，使用二分查找在数组部分 [0, j) 中找到第一个 nil 出现的位置：</span></span><br><span class="line"><span class="comment">-- 初始化 i = 0，j = t-&gt;sizearray。</span></span><br><span class="line"><span class="comment">-- 每次取中间位置 m = (i + j) / 2。</span></span><br><span class="line"><span class="comment">-- 如果 t-&gt;array[m - 1] 为 nil，说明边界在左侧，更新 j = m。</span></span><br><span class="line"><span class="comment">-- 如果 t-&gt;array[m - 1] 非 nil，说明边界在右侧，更新 i = m。</span></span><br><span class="line"><span class="comment">-- 最终返回 i，即最后一个非 nil 元素的索引加 1（也就是连续非 nil 元素的个数）。</span></span><br><span class="line"><span class="comment">-- 处理哈希部分：</span></span><br><span class="line"><span class="comment">-- 如果数组部分的最后一个元素非 nil（!ttisnil(&amp;t-&gt;array[j - 1])），或者数组部分为空（j == 0），则需要检查哈希部分。</span></span><br><span class="line"><span class="comment">-- 如果哈希部分为空（isdummy(t-&gt;node)），直接返回数组部分的长度 j。</span></span><br><span class="line"><span class="comment">-- 否则，调用 unbound_search(t, j) 在哈希部分中继续查找边界。</span></span><br><span class="line"><span class="comment">-- 行为：从 t[1] 开始计算连续非 nil 元素的个数，遇到第一个 nil 就停止。</span></span><br><span class="line">            </span><br><span class="line">static int unbound_search (Table *t, unsigned int j) &#123;</span><br><span class="line">  unsigned int i = j;  /* i is zero <span class="keyword">or</span> a present index */</span><br><span class="line">  j++;</span><br><span class="line">  /* <span class="built_in">find</span> `i<span class="string">&#x27; and `j&#x27;</span> such that i is present <span class="keyword">and</span> j is <span class="keyword">not</span> */</span><br><span class="line">  <span class="keyword">while</span> (!ttisnil(luaH_getint(t, j))) &#123;</span><br><span class="line">    i = j;</span><br><span class="line">    j *= <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">if</span> (j &gt; cast(unsigned int, MAX_INT)) &#123;  /* overflow? */</span><br><span class="line">      /* <span class="built_in">table</span> was built with bad purposes: resort to linear search */</span><br><span class="line">      i = <span class="number">1</span>;</span><br><span class="line">      <span class="keyword">while</span> (!ttisnil(luaH_getint(t, i))) i++;</span><br><span class="line">      <span class="keyword">return</span> i - <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  /* now <span class="keyword">do</span> a binary search between them */</span><br><span class="line">  <span class="keyword">while</span> (j - i &gt; <span class="number">1</span>) &#123;</span><br><span class="line">    unsigned int m = (i+j)/<span class="number">2</span>;</span><br><span class="line">    <span class="keyword">if</span> (ttisnil(luaH_getint(t, m))) j = m;</span><br><span class="line">    <span class="keyword">else</span> i = m;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> i;</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">-- 数组的长度为 j，hash 部分从 j+1 开始遍历，j 每次扩大两倍，找到t[j] 不为空， t[2*j] 为空，然后通过二分法查找，找到最终的值。</span></span><br></pre></td></tr></table></figure>
+
+<ol start="2">
+<li>5.2+</li>
+</ol>
+<blockquote>
+<ol>
+<li><p>检查数组部分</p>
+<ul>
+<li>Lua 表有一个数组部分，用于存储从 1 开始的连续整数键，容量由 asize 表示。</li>
+<li>如果 asize &gt; 0，说明表有数组部分，函数会优先处理这部分。</li>
+</ul>
+</li>
+<li><p>利用长度提示（hint）</p>
+<ul>
+<li>表中有一个缓存的长度提示字段 lenhint，记录上次计算的长度。</li>
+<li>初始时，limit &#x3D; *lenhint(t)，如果 limit 为 0，则设为 1（因为 Lua 索引从 1 开始）。</li>
+</ul>
+</li>
+<li><p>根据 t[limit] 的状态查找边界</p>
+<ul>
+<li><p>情况 1：t[limit] 为空（nil）</p>
+<ul>
+<li>说明边界在 limit 之前。</li>
+<li><strong>附近查找</strong>：从 limit 向前最多检查 4 次（maxvicinity &#x3D; 4），寻找一个位置 i，使得 t[i] 非 nil 且 t[i+1] 为 nil。若找到，返回 i 并更新提示。</li>
+<li><strong>二分查找</strong>：如果附近没找到，在 [0, limit) 范围内进行二分查找，找到边界并更新提示。</li>
+</ul>
+</li>
+<li><p>情况 2：t[limit] 非空</p>
+<ul>
+<li><p>说明边界在 limit 之后。</p>
+</li>
+<li><p><strong>附近查找</strong>：从 limit 向后最多检查 4 次，若 limit &lt; asize，寻找 t[i] 非 nil 且 t[i+1] 为 nil 的位置。若找到，返回 i 并更新提示。</p>
+</li>
+<li><p>进一步检查</p>
+<p>：</p>
+<ul>
+<li>如果数组部分的最后一个元素 t[asize] 为空，则在 [limit, asize) 范围内进行二分查找，找到边界并更新提示。</li>
+<li>如果 t[asize] 非空，说明数组部分没有边界，设置提示为 asize，并进入哈希部分的处理。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>处理哈希部分</p>
+<ul>
+<li><p>如果没有数组部分（asize &#x3D;&#x3D; 0）或 t[asize] 非空，检查哈希部分。</p>
+</li>
+<li><p>情况分析</p>
+<p>：</p>
+<ul>
+<li>如果表是“dummy”（空的或无哈希部分）或 t[asize + 1] 为空，返回 asize。</li>
+<li>如果 t[asize + 1] 非空，调用 hash_search(t, asize) 在哈希部分中查找最大的 n &gt; asize，使得 t[n] 非 nil 且 t[n+1] 为 nil，并返回该值。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h4 id="关键优化"><a href="#关键优化" class="headerlink" title="关键优化"></a><strong>关键优化</strong></h4><ul>
+<li><strong>提示机制</strong>：通过缓存长度提示，避免重复计算。</li>
+<li><strong>附近查找</strong>：在提示附近进行快速线性查找（最多 4 次），减少查找开销。</li>
+<li><strong>二分查找</strong>：当附近查找失败时，使用二分查找高效定位边界。</li>
+<li><strong>数组与哈希分离</strong>：优先处理数组部分，若必要再处理哈希部分，充分利用 Lua 表的结构特性。</li>
+</ul>
+<hr>
+<h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a><strong>总结</strong></h4><p>luaH_getn 函数通过结合长度提示、附近线性查找和二分查找，高效地计算 Lua 表的“长度”。它首先尝试利用数组部分的连续性快速找到边界，若无法满足则在哈希部分继续查找。这种设计在表有大量连续整数键时性能优异，同时也能正确处理稀疏表或混合表的情况。最终返回的 lua_Unsigned 值反映了表的有效长度，适用于 Lua 的 # 操作符。</p>
+</blockquote>
+<p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/1e8ab8fe55e4">https://www.jianshu.com/p/1e8ab8fe55e4</a></p>
+<blockquote>
+<p>这段代码是 Lua 中用于获取表（Table）数组部分有效长度的函数 <code>luaH_getn</code> 的实现。以下是代码的逐段解释：</p>
+<hr>
+<h3 id="1-初始条件检查"><a href="#1-初始条件检查" class="headerlink" title="1. 初始条件检查"></a><strong>1. 初始条件检查</strong></h3><p>c</p>
+<p>复制</p>
+<p>下载</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">unsigned int limit = t-&gt;alimit;</span><br><span class="line">if (limit &gt; 0 &amp;&amp; isempty(&amp;t-&gt;array[limit - 1])) &#123;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>目的</strong>：检查数组部分的“逻辑边界”是否需要调整。</li>
+<li><code>alimit</code> 是表的预分配数组大小，但可能不反映实际的有效元素边界。</li>
+<li>如果 <code>alimit-1</code> 位置的元素为空（<code>isempty</code>），说明当前 <code>alimit</code> 可能不是有效边界，需要进一步处理。</li>
+</ul>
+<hr>
+<h3 id="2-快速调整边界"><a href="#2-快速调整边界" class="headerlink" title="2. 快速调整边界"></a><strong>2. 快速调整边界</strong></h3><p>c</p>
+<p>复制</p>
+<p>下载</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">if (limit &gt;= 2 &amp;&amp; !isempty(&amp;t-&gt;array[limit - 2])) &#123;</span><br><span class="line">    if (ispow2realasize(t) &amp;&amp; !ispow2(limit - 1)) &#123;</span><br><span class="line">        t-&gt;alimit = limit - 1;</span><br><span class="line">        setnorealasize(t);</span><br><span class="line">    &#125;</span><br><span class="line">    return limit - 1;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>场景</strong>：如果 <code>limit-2</code> 位置非空，且 <code>limit-1</code> 为空，说明 <code>limit-1</code> 是有效边界。</li>
+<li><strong>优化</strong>：如果表的真实数组大小是 2 的幂（<code>ispow2realasize</code>），但 <code>limit-1</code> 不是 2 的幂，则将 <code>alimit</code> 设为 <code>limit-1</code>，并标记真实大小不再等于 <code>alimit</code>（<code>setnorealasize</code>）。</li>
+<li><strong>返回</strong>：直接返回 <code>limit-1</code> 作为有效边界。</li>
+</ul>
+<hr>
+<h3 id="3-二分查找边界"><a href="#3-二分查找边界" class="headerlink" title="3. 二分查找边界"></a><strong>3. 二分查找边界</strong></h3><p>c</p>
+<p>复制</p>
+<p>下载</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">else &#123;</span><br><span class="line">    unsigned int boundary = binsearch(t-&gt;array, 0, limit);</span><br><span class="line">    if (ispow2realasize(t) &amp;&amp; boundary &gt; luaH_realasize(t) / 2) &#123;</span><br><span class="line">        t-&gt;alimit = boundary;</span><br><span class="line">        setnorealasize(t);</span><br><span class="line">    &#125;</span><br><span class="line">    return boundary;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>场景</strong>：当无法快速确定边界时，在 <code>[0, limit]</code> 范围内通过二分查找 (<code>binsearch</code>) 找到第一个空元素的位置作为边界。</li>
+<li><strong>优化</strong>：如果真实数组大小是 2 的幂，且找到的边界超过其一半，更新 <code>alimit</code> 为这个边界，以提高后续操作效率。</li>
+</ul>
+<hr>
+<h3 id="4-处理未调整的-alimit"><a href="#4-处理未调整的-alimit" class="headerlink" title="4. 处理未调整的 alimit"></a><strong>4. 处理未调整的 <code>alimit</code></strong></h3><p>c</p>
+<p>复制</p>
+<p>下载</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">if (!limitequalsasize(t)) &#123;</span><br><span class="line">    if (isempty(&amp;t-&gt;array[limit])) return limit;</span><br><span class="line">    limit = luaH_realasize(t);</span><br><span class="line">    if (isempty(&amp;t-&gt;array[limit - 1])) &#123;</span><br><span class="line">        unsigned int boundary = binsearch(t-&gt;array, t-&gt;alimit, limit);</span><br><span class="line">        t-&gt;alimit = boundary;</span><br><span class="line">        return boundary;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>场景</strong>：如果 <code>alimit</code> 不等于真实数组大小（<code>limitequalsasize</code>），说明数组有更多元素。</li>
+<li><strong>检查空洞</strong>：<ul>
+<li>如果 <code>array[limit]</code> 为空，直接返回 <code>limit</code> 作为边界。</li>
+<li>否则，将 <code>limit</code> 设为真实数组大小，继续检查末尾是否为空。</li>
+<li>如果末尾为空，通过二分查找调整 <code>alimit</code>。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="5-处理哈希部分的影响"><a href="#5-处理哈希部分的影响" class="headerlink" title="5. 处理哈希部分的影响"></a><strong>5. 处理哈希部分的影响</strong></h3><p>c</p>
+<p>复制</p>
+<p>下载</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">lua_assert(limit == luaH_realasize(t) &amp;&amp;</span><br><span class="line">           (limit == 0 || !isempty(&amp;t-&gt;array[limit - 1])));</span><br><span class="line">if (isdummy(t) || isempty(luaH_getint(t, cast(lua_Integer, limit + 1))))</span><br><span class="line">    return limit;</span><br><span class="line">else</span><br><span class="line">    return hash_search(t, limit);</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li><strong>断言</strong>：确保 <code>limit</code> 是真实数组大小，且末尾元素非空。</li>
+<li><strong>哈希检查</strong>：<ul>
+<li>如果表是虚拟表（<code>isdummy</code>）或 <code>limit+1</code> 在哈希部分为空，返回 <code>limit</code>。</li>
+<li>否则，调用 <code>hash_search</code> 在哈希部分中查找可能的连续键（如 <code>limit+1</code>），扩展有效长度。</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a><strong>总结</strong></h3><ul>
+<li><strong>核心逻辑</strong>：通过数组部分的预分配大小 (<code>alimit</code>)、二分查找和哈希部分的检查，高效确定表的有效长度。</li>
+<li><strong>优化点</strong>：维护 <code>alimit</code> 为 2 的幂以提高内存分配效率，动态调整逻辑边界。</li>
+<li><strong>典型用例</strong>：Lua 中 <code>#</code> 运算符获取数组长度时调用此函数，正确处理数组空洞和哈希部分。</li>
+</ul>
+</blockquote>
+<figure class="highlight lua"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">/*</span><br><span class="line">** Try to <span class="built_in">find</span> a boundary <span class="keyword">in</span> <span class="built_in">table</span> <span class="string">&#x27;t&#x27;</span>. (A <span class="string">&#x27;boundary&#x27;</span> is an integer index</span><br><span class="line">** such that t[i] is present <span class="keyword">and</span> t[i+<span class="number">1</span>] is absent, <span class="keyword">or</span> <span class="number">0</span> <span class="keyword">if</span> t[<span class="number">1</span>] is absent</span><br><span class="line">** <span class="keyword">and</span> <span class="string">&#x27;maxinteger&#x27;</span> <span class="keyword">if</span> t[maxinteger] is present.)</span><br><span class="line">** (In the <span class="built_in">next</span> explanation, we use Lua indices, that is, with base <span class="number">1.</span></span><br><span class="line">** The code itself uses base <span class="number">0</span> when indexing the array part of the <span class="built_in">table</span>.)</span><br><span class="line">** The code starts with <span class="string">&#x27;limit = t-&gt;alimit&#x27;</span>, a position <span class="keyword">in</span> the array</span><br><span class="line">** part that may be a boundary.</span><br><span class="line">**</span><br><span class="line">** (<span class="number">1</span>) If <span class="string">&#x27;t[limit]&#x27;</span> is empty, there must be a boundary before it.</span><br><span class="line">** As a common case (e.g., after <span class="string">&#x27;t[#t]=nil&#x27;</span>), check whether <span class="string">&#x27;limit-1&#x27;</span></span><br><span class="line">** is present. If so, it is a boundary. Otherwise, <span class="keyword">do</span> a binary search</span><br><span class="line">** between <span class="number">0</span> <span class="keyword">and</span> limit to <span class="built_in">find</span> a boundary. In both cases, try to</span><br><span class="line">** use this boundary as the new <span class="string">&#x27;alimit&#x27;</span>, as a hint <span class="keyword">for</span> the <span class="built_in">next</span> call.</span><br><span class="line">**</span><br><span class="line">** (<span class="number">2</span>) If <span class="string">&#x27;t[limit]&#x27;</span> is <span class="keyword">not</span> empty <span class="keyword">and</span> the array has more elements</span><br><span class="line">** after <span class="string">&#x27;limit&#x27;</span>, try to <span class="built_in">find</span> a boundary there. Again, try first</span><br><span class="line">** the special case (which should be quite frequent) where <span class="string">&#x27;limit+1&#x27;</span></span><br><span class="line">** is empty, so that <span class="string">&#x27;limit&#x27;</span> is a boundary. Otherwise, check the</span><br><span class="line">** last element of the array part. If it is empty, there must be a</span><br><span class="line">** boundary between the old limit (present) <span class="keyword">and</span> the last element</span><br><span class="line">** (absent), which is found with a binary search. (This boundary always</span><br><span class="line">** can be a new limit.)</span><br><span class="line">**</span><br><span class="line">** (<span class="number">3</span>) The last case is when there are no elements <span class="keyword">in</span> the array part</span><br><span class="line">** (limit == <span class="number">0</span>) <span class="keyword">or</span> its last element (the new limit) is present.</span><br><span class="line">** In this case, must check the hash part. If there is no hash part</span><br><span class="line">** <span class="keyword">or</span> <span class="string">&#x27;limit+1&#x27;</span> is absent, <span class="string">&#x27;limit&#x27;</span> is a boundary.  Otherwise, call</span><br><span class="line">** <span class="string">&#x27;hash_search&#x27;</span> to <span class="built_in">find</span> a boundary <span class="keyword">in</span> the hash part of the <span class="built_in">table</span>.</span><br><span class="line">** (In those cases, the boundary is <span class="keyword">not</span> inside the array part, <span class="keyword">and</span></span><br><span class="line">** therefore cannot be used as a new limit.)</span><br><span class="line">*/</span><br><span class="line">lua_Unsigned luaH_getn (Table *t) &#123;</span><br><span class="line">  unsigned int limit = t-&gt;alimit;</span><br><span class="line">  <span class="keyword">if</span> (limit &gt; <span class="number">0</span> &amp;&amp; isempty(&amp;t-&gt;array[limit - <span class="number">1</span>])) &#123;  /* (<span class="number">1</span>)? */</span><br><span class="line">    /* there must be a boundary before <span class="string">&#x27;limit&#x27;</span> */</span><br><span class="line">    <span class="keyword">if</span> (limit &gt;= <span class="number">2</span> &amp;&amp; !isempty(&amp;t-&gt;array[limit - <span class="number">2</span>])) &#123;</span><br><span class="line">      /* <span class="string">&#x27;limit - 1&#x27;</span> is a boundary; can it be a new limit? */</span><br><span class="line">      <span class="keyword">if</span> (ispow2realasize(t) &amp;&amp; !ispow2(limit - <span class="number">1</span>)) &#123;</span><br><span class="line">        t-&gt;alimit = limit - <span class="number">1</span>;</span><br><span class="line">        setnorealasize(t);  /* now <span class="string">&#x27;alimit&#x27;</span> is <span class="keyword">not</span> the real size */</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">return</span> limit - <span class="number">1</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">else</span> &#123;  /* must search <span class="keyword">for</span> a boundary <span class="keyword">in</span> [<span class="number">0</span>, limit] */</span><br><span class="line">      unsigned int boundary = binsearch(t-&gt;array, <span class="number">0</span>, limit);</span><br><span class="line">      /* can this boundary represent the real size of the array? */</span><br><span class="line">      <span class="keyword">if</span> (ispow2realasize(t) &amp;&amp; boundary &gt; luaH_realasize(t) / <span class="number">2</span>) &#123;</span><br><span class="line">        t-&gt;alimit = boundary;  /* use it as the new limit */</span><br><span class="line">        setnorealasize(t);</span><br><span class="line">      &#125;</span><br><span class="line">      <span class="keyword">return</span> boundary;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">  /* <span class="string">&#x27;limit&#x27;</span> is zero <span class="keyword">or</span> present <span class="keyword">in</span> <span class="built_in">table</span> */</span><br><span class="line">  <span class="keyword">if</span> (!limitequalsasize(t)) &#123;  /* (<span class="number">2</span>)? */</span><br><span class="line">    /* <span class="string">&#x27;limit&#x27;</span> &gt; <span class="number">0</span> <span class="keyword">and</span> array has more elements after <span class="string">&#x27;limit&#x27;</span> */</span><br><span class="line">    <span class="keyword">if</span> (isempty(&amp;t-&gt;array[limit]))  /* <span class="string">&#x27;limit + 1&#x27;</span> is empty? */</span><br><span class="line">      <span class="keyword">return</span> limit;  /* this is the boundary */</span><br><span class="line">    /* <span class="keyword">else</span>, try last element <span class="keyword">in</span> the array */</span><br><span class="line">    limit = luaH_realasize(t);</span><br><span class="line">    <span class="keyword">if</span> (isempty(&amp;t-&gt;array[limit - <span class="number">1</span>])) &#123;  /* empty? */</span><br><span class="line">      /* there must be a boundary <span class="keyword">in</span> the array after old limit,</span><br><span class="line">         <span class="keyword">and</span> it must be a valid new limit */</span><br><span class="line">      unsigned int boundary = binsearch(t-&gt;array, t-&gt;alimit, limit);</span><br><span class="line">      t-&gt;alimit = boundary;</span><br><span class="line">      <span class="keyword">return</span> boundary;</span><br><span class="line">    &#125;</span><br><span class="line">    /* <span class="keyword">else</span>, new limit is present <span class="keyword">in</span> the <span class="built_in">table</span>; check the hash part */</span><br><span class="line">  &#125;</span><br><span class="line">  /* (<span class="number">3</span>) <span class="string">&#x27;limit&#x27;</span> is the last element <span class="keyword">and</span> either is zero <span class="keyword">or</span> present <span class="keyword">in</span> <span class="built_in">table</span> */</span><br><span class="line">  lua_assert(limit == luaH_realasize(t) &amp;&amp;</span><br><span class="line">             (limit == <span class="number">0</span> || !isempty(&amp;t-&gt;array[limit - <span class="number">1</span>])));</span><br><span class="line">  <span class="keyword">if</span> (isdummy(t) || isempty(luaH_getint(t, cast(lua_Integer, limit + <span class="number">1</span>))))</span><br><span class="line">    <span class="keyword">return</span> limit;  /* <span class="string">&#x27;limit + 1&#x27;</span> is absent */</span><br><span class="line">  <span class="keyword">else</span>  /* <span class="string">&#x27;limit + 1&#x27;</span> is also present */</span><br><span class="line">    <span class="keyword">return</span> hash_search(t, limit);</span><br><span class="line">&#125;</span><br><span class="line">                                                                </span><br><span class="line">                                                                </span><br><span class="line">/*</span><br><span class="line">** Try to <span class="built_in">find</span> a boundary <span class="keyword">in</span> the hash part of <span class="built_in">table</span> <span class="string">&#x27;t&#x27;</span>. From the</span><br><span class="line">** caller, we know that <span class="string">&#x27;j&#x27;</span> is zero <span class="keyword">or</span> present <span class="keyword">and</span> that <span class="string">&#x27;j + 1&#x27;</span> is</span><br><span class="line">** present. We want to <span class="built_in">find</span> a larger key that is absent from the</span><br><span class="line">** <span class="built_in">table</span>, so that we can <span class="keyword">do</span> a binary search between the two keys to</span><br><span class="line">** <span class="built_in">find</span> a boundary. We keep doubling <span class="string">&#x27;j&#x27;</span> <span class="keyword">until</span> we get an absent index.</span><br><span class="line">** If the doubling would overflow, we try LUA_MAXINTEGER. If it is</span><br><span class="line">** absent, we are ready <span class="keyword">for</span> the binary search. (<span class="string">&#x27;j&#x27;</span>, being <span class="built_in">max</span> integer,</span><br><span class="line">** is larger <span class="keyword">or</span> equal to <span class="string">&#x27;i&#x27;</span>, but it cannot be equal because it is</span><br><span class="line">** absent <span class="keyword">while</span> <span class="string">&#x27;i&#x27;</span> is present; so <span class="string">&#x27;j &gt; i&#x27;</span>.) Otherwise, <span class="string">&#x27;j&#x27;</span> is a</span><br><span class="line">** boundary. (<span class="string">&#x27;j + 1&#x27;</span> cannot be a present integer key because it is</span><br><span class="line">** <span class="keyword">not</span> a valid integer <span class="keyword">in</span> Lua.)</span><br><span class="line">*/</span><br><span class="line">static lua_Unsigned hash_search (Table *t, lua_Unsigned j) &#123;</span><br><span class="line">  lua_Unsigned i;</span><br><span class="line">  <span class="keyword">if</span> (j == <span class="number">0</span>) j++;  /* the caller ensures <span class="string">&#x27;j + 1&#x27;</span> is present */</span><br><span class="line">  <span class="keyword">do</span> &#123;</span><br><span class="line">    i = j;  /* <span class="string">&#x27;i&#x27;</span> is a present index */</span><br><span class="line">    <span class="keyword">if</span> (j &lt;= l_castS2U(LUA_MAXINTEGER) / <span class="number">2</span>)</span><br><span class="line">      j *= <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">else</span> &#123;</span><br><span class="line">      j = LUA_MAXINTEGER;</span><br><span class="line">      <span class="keyword">if</span> (isempty(luaH_getint(t, j)))  /* t[j] <span class="keyword">not</span> present? */</span><br><span class="line">        <span class="keyword">break</span>;  /* <span class="string">&#x27;j&#x27;</span> now is an absent index */</span><br><span class="line">      <span class="keyword">else</span>  /* weird case */</span><br><span class="line">        <span class="keyword">return</span> j;  /* well, <span class="built_in">max</span> integer is a boundary... */</span><br><span class="line">    &#125;</span><br><span class="line">  &#125; <span class="keyword">while</span> (!isempty(luaH_getint(t, j)));  /* <span class="keyword">repeat</span> <span class="keyword">until</span> an absent t[j] */</span><br><span class="line">  /* i &lt; j  &amp;&amp;  t[i] present  &amp;&amp;  t[j] absent */</span><br><span class="line">  <span class="keyword">while</span> (j - i &gt; <span class="number">1</span>u) &#123;  /* <span class="keyword">do</span> a binary search between them */</span><br><span class="line">    lua_Unsigned m = (i + j) / <span class="number">2</span>;</span><br><span class="line">    <span class="keyword">if</span> (isempty(luaH_getint(t, m))) j = m;</span><br><span class="line">    <span class="keyword">else</span> i = m;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="keyword">return</span> i;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>以下是 Lua 5.1 和 Lua 5.2+ 版本 luaH_getn 的主要区别：</p>
+<ol>
+<li><p>处理空洞（nil 值）的方式</p>
+<p>：</p>
+<ul>
+<li><p>Lua 5.1</p>
+<p>：</p>
+<ul>
+<li>在数组部分，遇到第一个 nil 就停止，返回其之前的长度。</li>
+<li>例如，对于表 t &#x3D; {1, nil, 3}，luaH_getn 返回 1，因为 t[2] &#x3D; nil 中断了连续性。</li>
+</ul>
+</li>
+<li><p>Lua 5.2+</p>
+<p>：</p>
+<ul>
+<li>可以跳过中间的 nil，寻找最后一个非 nil 的整数键。</li>
+<li>对于同样的表 t &#x3D; {1, nil, 3}，返回 3，因为 t[3] 非 nil 且 t[4] 为 nil。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>查找策略</p>
+<p>：</p>
+<ul>
+<li><p>Lua 5.1</p>
+<p>：</p>
+<ul>
+<li>使用简单的二分查找，在数组部分找到第一个 nil 的位置。</li>
+<li>没有长度提示，效率较低。</li>
+</ul>
+</li>
+<li><p>Lua 5.2+</p>
+<p>：</p>
+<ul>
+<li>使用更复杂的查找策略，包括附近查找和二分查找，并利用长度提示优化性能。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>对哈希部分的处理</p>
+<p>：</p>
+<ul>
+<li><p>Lua 5.1</p>
+<p>：</p>
+<ul>
+<li>如果数组部分没有 nil，调用 unbound_search 在哈希部分查找边界，逻辑较为简单。</li>
+</ul>
+</li>
+<li><p>Lua 5.2+</p>
+<p>：</p>
+<ul>
+<li>类似地在哈希部分查找，但实现上可能更复杂，支持跳过 nil 的逻辑。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+</div></article></div></div><div class="column column-left is-4-tablet is-4-desktop is-4-widescreen  order-1"><div class="card widget" data-type="profile"><div class="card-content"><nav class="level"><div class="level-item has-text-centered flex-shrink-1"><div><figure class="image is-128x128 mx-auto mb-2"><img class="avatar" src="/HexoBlog/img/avatar.png" alt="Your name"></figure><p class="title is-size-4 is-block" style="line-height:inherit;">Your name</p><p class="is-size-6 is-block">Your title</p><p class="is-size-6 is-flex justify-content-center"><i class="fas fa-map-marker-alt mr-1"></i><span>Your location</span></p></div></div></nav><nav class="level is-mobile"><div class="level-item has-text-centered is-marginless"><div><p class="heading">Posts</p><a href="/HexoBlog/archives/"><p class="title">13</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Categories</p><a href="/HexoBlog/categories/"><p class="title">0</p></a></div></div><div class="level-item has-text-centered is-marginless"><div><p class="heading">Tags</p><a href="/HexoBlog/tags/"><p class="title">3</p></a></div></div></nav><div class="level"><a class="level-item button is-primary is-rounded" href="https://github.com/ppoffice" target="_blank" rel="me noopener">Follow</a></div><div class="level is-mobile is-multiline"><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="Github" href="https://github.com/ppoffice"><i class="fab fa-github"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="Facebook" href="https://facebook.com"><i class="fab fa-facebook"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="Twitter" href="https://twitter.com"><i class="fab fa-twitter"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="Dribbble" href="https://dribbble.com"><i class="fab fa-dribbble"></i></a><a class="level-item button is-transparent is-marginless" target="_blank" rel="me noopener" title="RSS" href="/HexoBlog/"><i class="fas fa-rss"></i></a></div></div></div><!--!--><div class="card widget" data-type="links"><div class="card-content"><div class="menu"><h3 class="menu-label">Links</h3><ul class="menu-list"><li><a class="level is-mobile" href="https://hexo.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Hexo</span></span><span class="level-right"><span class="level-item tag">hexo.io</span></span></a></li><li><a class="level is-mobile" href="https://bulma.io" target="_blank" rel="noopener"><span class="level-left"><span class="level-item">Bulma</span></span><span class="level-right"><span class="level-item tag">bulma.io</span></span></a></li></ul></div></div></div><!--!--><div class="card widget" data-type="recent-posts"><div class="card-content"><h3 class="menu-label">Recents</h3><article class="media"><div class="media-content"><p class="date"><time dateTime="2025-12-31T19:47:17.000Z">2025-12-31</time></p><p class="title"><a href="/HexoBlog/2025/12/31/Index/">Index</a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2025-05-16T14:18:21.859Z">2025-05-16</time></p><p class="title"><a href="/HexoBlog/2025/05/16/%E5%B8%A7%E5%90%8C%E6%AD%A5/%E5%B8%A7%E5%90%8C%E6%AD%A5%E5%AD%A6%E4%B9%A0%EF%BC%9ASession/"> </a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2025-05-16T14:18:21.859Z">2025-05-16</time></p><p class="title"><a href="/HexoBlog/2025/05/16/%E5%B8%A7%E5%90%8C%E6%AD%A5/%E5%B8%A7%E5%90%8C%E6%AD%A5%E5%AD%A6%E4%B9%A0%EF%BC%9A%E6%95%B0%E5%AD%A6%E5%BA%93/"> </a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2025-05-16T14:18:21.822Z">2025-05-16</time></p><p class="title"><a href="/HexoBlog/2025/05/16/C#/C#GC/"> </a></p></div></article><article class="media"><div class="media-content"><p class="date"><time dateTime="2025-05-16T14:18:21.822Z">2025-05-16</time></p><p class="title"><a href="/HexoBlog/2025/05/16/C#/C#%E5%8F%8D%E5%B0%84%E5%92%8C%E7%89%B9%E6%80%A7/"> </a></p></div></article></div></div><div class="card widget" data-type="archives"><div class="card-content"><div class="menu"><h3 class="menu-label">Archives</h3><ul class="menu-list"><li><a class="level is-mobile" href="/HexoBlog/archives/2025/12/"><span class="level-start"><span class="level-item">December 2025</span></span><span class="level-end"><span class="level-item tag">1</span></span></a></li><li><a class="level is-mobile" href="/HexoBlog/archives/2025/05/"><span class="level-start"><span class="level-item">May 2025</span></span><span class="level-end"><span class="level-item tag">12</span></span></a></li></ul></div></div></div><div class="card widget" data-type="tags"><div class="card-content"><div class="menu"><h3 class="menu-label">Tags</h3><div class="field is-grouped is-grouped-multiline"><div class="control"><a class="tags has-addons" href="/HexoBlog/tags/LockStep-Web/"><span class="tag">LockStep, Web</span><span class="tag">4</span></a></div><div class="control"><a class="tags has-addons" href="/HexoBlog/tags/Lua/"><span class="tag">Lua</span><span class="tag">1</span></a></div><div class="control"><a class="tags has-addons" href="/HexoBlog/tags/Lua-XLua/"><span class="tag">Lua,XLua</span><span class="tag">2</span></a></div></div></div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">Subscribe for updates</h3><form action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open(&#039;https://feedburner.google.com/fb/a/mailverify?uri=&#039;,&#039;popupwindow&#039;,&#039;scrollbars=yes,width=550,height=520&#039;);return true"><input type="hidden" value="" name="uri"><input type="hidden" name="loc" value="en_US"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="Subscribe"></div></div></form></div></div></div><div class="card widget"><div class="card-content"><div class="notification is-danger">You need to set <code>client_id</code> and <code>slot_id</code> to show this AD unit. Please set it in <code>_config.yml</code>.</div></div></div><div class="card widget" data-type="subscribe-email"><div class="card-content"><div class="menu"><h3 class="menu-label">follow.it</h3><form action="" method="post" target="_blank"><div class="field has-addons"><div class="control has-icons-left is-expanded"><input class="input" name="email" type="email" placeholder="Email"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span></div><div class="control"><input class="button" type="submit" value="Subscribe"></div></div></form></div></div></div></div><!--!--></div></div></section><footer class="footer"><div class="container"><div class="level"><div class="level-start"><a class="footer-logo is-block mb-2" href="/HexoBlog/"><img src="/HexoBlog/img/logo.svg" alt="Hexo" height="28"></a><p class="is-size-7"><span>&copy; 2025 John Doe</span>  Powered by <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a> &amp; <a href="https://github.com/ppoffice/hexo-theme-icarus" target="_blank" rel="noopener">Icarus</a></p><p class="is-size-7">© 2019</p></div><div class="level-end"><div class="field has-addons"><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Creative Commons" href="https://creativecommons.org/"><i class="fab fa-creative-commons"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Attribution 4.0 International" href="https://creativecommons.org/licenses/by/4.0/"><i class="fab fa-creative-commons-by"></i></a></p><p class="control"><a class="button is-transparent is-large" target="_blank" rel="noopener" title="Download on GitHub" href="https://github.com/ppoffice/hexo-theme-icarus"><i class="fab fa-github"></i></a></p></div></div></div></div></footer><script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/min/moment-with-locales.min.js"></script><script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.4/dist/clipboard.min.js" defer></script><script>moment.locale("en");</script><script>var IcarusThemeSettings = {
+            article: {
+                highlight: {
+                    clipboard: true,
+                    fold: 'unfolded'
+                }
+            }
+        };</script><script data-pjax src="/HexoBlog/js/column.js"></script><script src="/HexoBlog/js/animation.js"></script><a id="back-to-top" title="Back to top" href="javascript:;"><i class="fas fa-chevron-up"></i></a><script data-pjax src="/HexoBlog/js/back_to_top.js" defer></script><!--!--><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/cookieconsent@3.1.1/build/cookieconsent.min.js" defer></script><script>window.addEventListener("load", () => {
+      window.cookieconsent.initialise({
+        type: "info",
+        theme: "edgeless",
+        static: false,
+        position: "bottom-left",
+        content: {
+          message: "This website uses cookies to improve your experience.",
+          dismiss: "Got it!",
+          allow: "Allow cookies",
+          deny: "Decline",
+          link: "Learn more",
+          policy: "Cookie Policy",
+          href: "https://www.cookiesandyou.com/",
+        },
+        palette: {
+          popup: {
+            background: "#edeff5",
+            text: "#838391"
+          },
+          button: {
+            background: "#4b81e8"
+          },
+        },
+      });
+    });</script><script src="https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js" defer></script><script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.8.1/dist/js/jquery.justifiedGallery.min.js" defer></script><script>window.addEventListener("load", () => {
+            if (typeof $.fn.lightGallery === 'function') {
+                $('.article').lightGallery({ selector: '.gallery-item' });
+            }
+            if (typeof $.fn.justifiedGallery === 'function') {
+                if ($('.justified-gallery > p > .gallery-item').length) {
+                    $('.justified-gallery > p > .gallery-item').unwrap();
+                }
+                $('.justified-gallery').justifiedGallery();
+            }
+        });</script><!--!--><!--!--><script src="https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js"></script><script src="/HexoBlog/js/pjax.js"></script><!--!--><!--!--><!--!--><script data-pjax src="/HexoBlog/js/main.js" defer></script><div class="searchbox"><div class="searchbox-container"><div class="searchbox-header"><div class="searchbox-input-container"><input class="searchbox-input" type="text" placeholder="Type something..."></div><a class="searchbox-close" href="javascript:;">×</a></div><div class="searchbox-body"></div></div></div><script data-pjax src="/HexoBlog/js/insight.js" defer></script><script data-pjax>document.addEventListener('DOMContentLoaded', function () {
+            loadInsight({"contentUrl":"/HexoBlog/content.json"}, {"hint":"Type something...","untitled":"(Untitled)","posts":"Posts","pages":"Pages","categories":"Categories","tags":"Tags"});
+        });</script></body></html>
